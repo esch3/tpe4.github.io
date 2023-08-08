@@ -1,15 +1,31 @@
 body {
-    background-color: blue;
+    background-color: rgba(0, 42, 255, 0.346);
 }
 
-.container {
+.top {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+}
+
+form {
+    text-align: center;
+    height: max-content;
+}
+
+#search-bar {
+    margin: 20px;
+    border-radius: 20px;
 }
 
 .green-square {
     background-color: springgreen;
-    height: 200px;
     width: 200px;
     margin: 20px;
     padding: 20px;
