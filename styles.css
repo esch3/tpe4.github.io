@@ -1,14 +1,24 @@
-body {
-    background-color: rgba(0, 42, 255, 0.346);
+body, input, button {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+.foogle {
+    display: flex;
+    justify-content: center;
+    height: 92px;
 }
 
 .top {
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
 
 .middle {
+    background-color: white;
     display: flex;
     justify-content: center;
     height: max-content;
@@ -19,14 +29,51 @@ form {
     height: max-content;
 }
 
-#search-bar {
-    margin: 20px;
-    border-radius: 20px;
+.search-bar {
+    display: flex;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 584px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-btn {
+    background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+    }
+
+
 .green-square {
-    background-color: springgreen;
-    width: 200px;
+    background-color: white;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.gray-square {
+    background-color: white;
     margin: 20px;
     padding: 20px;
 }
