@@ -6,11 +6,21 @@
     </head>
     <body>
         <div class="top">
-            <div class="gray-square">
-                <a href="./image.html">Image Search</a>
+            <div class="top-left">
+                <div class="gray-square">
+                    About
+                </div>
+                <div class="gray-square">
+                    Store
+                </div>
             </div>
-            <div class="gray-square">
-                <a href="./advanced.html">Advanced Search</a>
+            <div class="top-right">
+                <div class="gray-square">
+                    <a href="./image.html">Image Search</a>
+                </div>
+                <div class="gray-square">
+                    <a href="./advanced.html">Advanced Search</a>
+                </div>
             </div>
         </div>
         <div class="foogle">
@@ -19,12 +29,18 @@
         <div class="middle">
             <div class="green-square">
                 <form action="https://www.google.com/search">
-                    <input class="search-bar" type="text" name="q">
+                    <div class="search-bar">
+                        <input class="search-query" type="text" name="q">
+                    </div>
                     <div class="buttons">
                         <input class="search-btn" type="submit" value="Google Search">
+                        <input class="lucky-btn" type="submit" value="I'm Feeling Lucky">
                     </div>    
                 </form>
             </div>
         </div>
+        <footer class="bottom">
+            <p>created by: esch</p>
+        </footer>
     </body>
 </html>

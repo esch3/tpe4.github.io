@@ -4,17 +4,27 @@ body, input, button {
     color: #202124;
 }
 
-.foogle {
-    display: flex;
-    justify-content: center;
-    height: 92px;
-}
-
 .top {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top-right {
+    display: flex;
     justify-content: flex-end;
+}
+
+.gray-square {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
 }
 
 .middle {
@@ -22,6 +32,13 @@ body, input, button {
     display: flex;
     justify-content: center;
     height: max-content;
+}
+
+.foogle {
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    padding-top: 150px;
 }
 
 form {
@@ -39,6 +56,14 @@ form {
     margin: 0 auto;
     width: 100%;
     max-width: 584px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-query {
+    width: 90%;
+    border: none;
+    outline: none;
 }
 
 .buttons {
@@ -47,23 +72,22 @@ form {
     margin-top: 20px;
 }
 
-.search-btn {
+.search-btn, .lucky-btn {
     background-color: #f8f9fa;
-        border: 1px solid #f8f9fa;
-        border-radius: 4px;
-        color: #3c4043;
-        font-family: arial, sans-serif;
-        font-size: 14px;
-        margin: 11px 4px;
-        padding: 0 16px;
-        line-height: 27px;
-        height: 36px;
-        min-width: 54px;
-        text-align: center;
-        cursor: pointer;
-        user-select: none;
-    }
-
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
 
 .green-square {
     background-color: white;
@@ -72,8 +96,12 @@ form {
     padding: 20px;
 }
 
-.gray-square {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
+.bottom {
+    background-color: #f2f2f2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
+
